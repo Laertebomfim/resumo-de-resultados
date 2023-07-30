@@ -1,35 +1,67 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <body>
+        <main>
+          <article>
+            <p>seu resultado</p>
+            <div>
+                <div>76</div>
+                <p>para 100</p>
+            </div>
+            <p>ótimo</p>
+            <p>você teve uma pontuação superior a 65% das pessoas que fizeram esses testes</p>
+          </article>
+          <article>
+            <p></p>
+            <div>
+              <div>
+                <img src={"../../public/images/icon-reaction.svg"} alt="" />
+                <span></span>
+              </div>
+              <div>
+  
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <img src="../../public/images/icon-memory.svg" alt="" />
+                <span></span>
+              </div>
+              <div>
+  
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <img src="../../public/images/icon-verbal.svg" alt="" />
+                <span></span>
+              </div>
+              <div>
+  
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <img src="../../public/images/icon-visual.svg" alt="" />
+                <span></span>
+              </div>
+              <div>
+  
+              </div>
+            </div>
+          </article>
+          <div>
+            <button></button>
+          </div>
+        </main>
+      </body>
     </>
   )
 }
 
-export default App
+
