@@ -1,7 +1,8 @@
 export default function App() {
 
   return (
-    // ola Hatfix
+  
+    // branch Hotfix
         <main className=" h-full w-full md:w-5/6 md:h-5/6 md:max-h-80 md:mx-auto md:mt-40 md:flex md:shadow-2xl rounded-3xl">
 
           <article className="w-full h-2/4 bg-blue-200 lg:bg-red-200 text-white text-center rounded-b-3xl  md:w-2/4 md:min-h-full md:rounded-3xl">
